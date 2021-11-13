@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "chunee.db.elephantsql.com",
+   "port": 5432,
+   "username": "dtsydlkw",
+   "password": "5QGt7_NVPf3xvmpZRLwPdOYrgV1_C-OO",
+   "database": "dtsydlkw",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
